@@ -5,11 +5,10 @@ const typeDefs = `
         query: Query
     }
     
-    type Query {
+    type Query { 
         greeting: String
     }
 `;
-
 
 const resolvers = {
     Query: {
